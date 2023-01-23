@@ -1,0 +1,7 @@
+org/acme/entities/ActorDetails.class
+org/acme/entities/Movies.class
+org/acme/entities/Actor.class
+org/acme/resources/ActorResource.class
+META-INF/panache-archive.marker
+org/acme/resources/MoviesResource.class
+org/acme/ExampleResource.class
