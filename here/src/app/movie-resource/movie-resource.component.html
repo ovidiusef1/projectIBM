@@ -1,0 +1,12 @@
+<mat-list>
+    <mat-list-item *ngFor="let movie of movies">
+      <h3 matListItemTitle>{{movie.name}}</h3>
+      <p matListItemLine>
+        <span>{{movie.id}}</span>
+      </p>
+      <mat-list-item *ngFor="let actor of movie.actors">
+        <h3 matListItemTitle>{{actor.nume}}</h3>
+      </mat-list-item>
+    </mat-list-item>
+    
+  </mat-list>

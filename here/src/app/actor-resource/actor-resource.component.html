@@ -1,0 +1,13 @@
+<!-- <mat-selection-list #shoes>
+  <mat-list-option *ngFor="let actor of actori">
+    {{actor.nume}}
+  </mat-list-option>
+</mat-selection-list> -->
+<mat-list>
+  <mat-list-item *ngFor="let actor of actori">
+    <h3 matListItemTitle>{{actor.nume}}</h3>
+    <p matListItemLine>
+      <span>{{actor.id}}</span>
+    </p>
+  </mat-list-item>
+</mat-list>
